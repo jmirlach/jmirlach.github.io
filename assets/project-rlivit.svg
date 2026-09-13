@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="280" height="210" viewBox="0 0 280 210" role="img" aria-labelledby="title desc">
+  <title id="title">Roadside sensing of people</title>
+  <desc id="desc">A pole carries a cylindrical LiDAR, a visual camera and a thermal camera. Their shared sensing area overlooks a pedestrian and a cyclist on a simple road crossing.</desc>
+  <rect width="280" height="210" fill="#c8d2cf"/>
+  <g stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M27 141H253V183H27Z" fill="#f2efe7"/>
+    <path d="M103 155H158V161H103ZM103 169H158V175H103Z" fill="#c8d2cf"/>
+    <path d="M51 178V69H46V178Z" fill="#315c57"/>
+    <path d="M35 179H62" stroke="#315c57"/>
+    <path d="M34 69H109" stroke="#315c57"/>
+    <path d="M32 50H54V65H32Z" fill="#315c57"/>
+    <ellipse cx="43" cy="50" rx="11" ry="5" fill="#f2efe7" stroke="#315c57"/>
+    <rect x="62" y="52" width="20" height="15" fill="#315c57"/>
+    <circle cx="76" cy="59" r="4" fill="#f2efe7"/>
+    <rect x="89" y="52" width="21" height="15" fill="#a13e2d"/>
+    <circle cx="104" cy="59" r="4" fill="#f2efe7"/>
+    <path d="M61 79L126 125M86 79L227 133" stroke="#315c57" stroke-width="1.5" fill="none" opacity="0.45"/>
+    <circle cx="139" cy="112" r="7" fill="#a13e2d"/>
+    <path d="M132 123Q139 120 146 124L149 146H130Z" fill="#a13e2d"/>
+    <path d="M134 143L125 171L131 173L140 152L147 173L153 171L145 143Z" fill="#a13e2d"/>
+    <path d="M133 126L123 143L128 146L139 131M144 126L157 140L161 136L148 123" fill="#a13e2d"/>
+    <circle cx="192" cy="166" r="13" fill="none" stroke="#315c57"/>
+    <circle cx="238" cy="166" r="13" fill="none" stroke="#315c57"/>
+    <path d="M192 166L205 146L218 166H192L226 146L238 166M224 146L223 139H230" stroke="#315c57" fill="none"/>
+    <circle cx="216" cy="123" r="6" fill="#315c57"/>
+    <path d="M210 132L201 146L217 153L211 164L216 167L224 150L210 143L216 137L225 142L228 138L215 130Z" fill="#315c57"/>
+    
+  </g>
+</svg>

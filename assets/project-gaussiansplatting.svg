@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="280" height="210" viewBox="0 0 280 210" role="img" aria-labelledby="title desc">
+  <title id="title">A human reconstructed from ellipses</title>
+  <desc id="desc">A monocular camera observes a moving human assembled from oriented ellipsoidal splats. A pale prior pose gives a motion cue; the illustration is a simplified reconstruction scene.</desc>
+  <rect width="280" height="210" fill="#c7d2d5"/>
+  <g stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M118 181H252" stroke="#2f5665"/>
+    <g fill="#2f5665" opacity="0.2">
+      <ellipse cx="157" cy="49" rx="9" ry="12"/>
+      <ellipse cx="153" cy="85" rx="12" ry="23" transform="rotate(8 153 85)"/>
+      <ellipse cx="148" cy="127" rx="7" ry="23" transform="rotate(22 148 127)"/>
+      <ellipse cx="137" cy="160" rx="6" ry="20" transform="rotate(12 137 160)"/>
+      <ellipse cx="168" cy="128" rx="7" ry="23" transform="rotate(-24 168 128)"/>
+      <ellipse cx="184" cy="161" rx="6" ry="20" transform="rotate(-18 184 161)"/>
+    </g>
+    <path d="M69 95L133 60M69 122L132 161" stroke="#2f5665" stroke-width="1.5" opacity="0.45"/>
+    <rect x="29" y="92" width="34" height="30" rx="3" fill="#2f5665"/>
+    <path d="M63 99L75 94V121L63 116Z" fill="#a13e2d"/>
+    <circle cx="44" cy="107" r="8" fill="#f2efe7"/>
+    <path d="M46 123V147L30 179M46 147L64 179" fill="none" stroke="#2f5665"/>
+    <g fill="#2f5665" stroke="#2f5665">
+      <ellipse cx="183" cy="46" rx="9" ry="12" transform="rotate(12 183 46)"/>
+      <ellipse cx="178" cy="81" rx="12" ry="23" transform="rotate(12 178 81)"/>
+      <ellipse cx="175" cy="105" rx="12" ry="11"/>
+      <ellipse cx="163" cy="129" rx="7" ry="22" transform="rotate(29 163 129)"/>
+      <ellipse cx="149" cy="160" rx="6" ry="20" transform="rotate(14 149 160)"/>
+      <ellipse cx="191" cy="125" rx="7" ry="22" transform="rotate(-39 191 125)"/>
+      <ellipse cx="216" cy="143" rx="6" ry="20" transform="rotate(-67 216 143)"/>
+      <ellipse cx="159" cy="81" rx="5" ry="17" transform="rotate(48 159 81)"/>
+      <ellipse cx="137" cy="92" rx="5" ry="15" transform="rotate(78 137 92)"/>
+      <ellipse cx="198" cy="80" rx="5" ry="17" transform="rotate(-51 198 80)"/>
+      <ellipse cx="218" cy="76" rx="5" ry="16" transform="rotate(32 218 76)"/>
+    </g>
+    <ellipse cx="175" cy="105" rx="12" ry="11" fill="#a13e2d"/>
+    <ellipse cx="191" cy="125" rx="7" ry="22" transform="rotate(-39 191 125)" fill="#a13e2d"/>
+    
+  </g>
+</svg>

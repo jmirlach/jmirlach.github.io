@@ -1,7 +1,345 @@
----
-# You don't need to edit this file, it's empty on purpose.
-# Edit theme's home layout instead if you wanna make some changes
-# See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-layout: home
-author_profile: true
----
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Personal website of Jonas Mirlach, featuring research, projects, publications, and professional experience in computer science and machine learning.">
+  <title>Jonas Mirlach</title>
+  <link rel="icon" href="assets/monogram.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <a class="skip-link" href="#research">Skip to research</a>
+
+  <div class="page-container" id="top">
+
+    <!-- ===================== Profile & bio ===================== -->
+    <header class="profile-header">
+      <div class="profile-grid">
+        <div class="avatar-col">
+          <img class="profile-img" src="assets/portrait.jpg" alt="Portrait of Jonas Mirlach" width="720" height="720">
+
+          <nav class="contact-links" aria-label="Contact and profiles">
+            <a href="mailto:jonas.mirlach@gmail.com">
+              <svg aria-hidden="true" viewBox="0 0 24 24"><rect x="3" y="5.25" width="18" height="13.5" rx="2.2"/><path d="m3.7 6.5 7.35 5.15a1.65 1.65 0 0 0 1.9 0L20.3 6.5"/></svg>
+              <span class="label">Email</span><span class="arrow" aria-hidden="true">↗</span>
+            </a>
+            <a href="https://scholar.google.com/citations?user=3PfXn5AAAAAJ&amp;hl=en&amp;oi=ao" target="_blank" rel="noreferrer">
+              <svg aria-hidden="true" viewBox="0 0 24 24"><path d="m12 5 9.2 4.75L12 14.5 2.8 9.75 12 5Z"/><path d="M6.6 11.7v3.8c0 1.2 2.42 2.15 5.4 2.15s5.4-.95 5.4-2.15v-3.8"/><path d="M20.6 10.9v4.5"/><circle class="solid" cx="20.6" cy="16.6" r="1.05"/></svg>
+              <span class="label">Scholar</span><span class="arrow" aria-hidden="true">↗</span>
+            </a>
+            <a href="https://github.com/jmirlach" target="_blank" rel="noreferrer">
+              <svg aria-hidden="true" viewBox="0 0 24 24"><path d="M9.2 18.9c-4.2 1.3-4.2-2.2-5.9-2.6m11.8 5.2v-3.3a2.9 2.9 0 0 0-.8-2.25c2.65-.3 5.43-1.32 5.43-5.94a4.65 4.65 0 0 0-1.28-3.22 4.33 4.33 0 0 0-.08-3.22s-1 -.3-3.32 1.26a11.4 11.4 0 0 0-5.94 0C6.8 3.29 5.8 3.59 5.8 3.59a4.33 4.33 0 0 0-.08 3.22A4.65 4.65 0 0 0 4.44 10.1c0 4.6 2.78 5.62 5.43 5.94a2.9 2.9 0 0 0-.8 2.23v3.23"/></svg>
+              <span class="label">GitHub</span><span class="arrow" aria-hidden="true">↗</span>
+            </a>
+            <a href="https://www.linkedin.com/in/jonas-mirlach" target="_blank" rel="noreferrer">
+              <svg aria-hidden="true" viewBox="0 0 24 24"><path d="M5.5 9.9v8.7"/><circle class="solid" cx="5.5" cy="5.55" r="1.35"/><path d="M10.9 18.6V9.9m0 4.35c0-2.6 1.75-4.5 4.15-4.5s4.15 1.9 4.15 4.5v4.35"/></svg>
+              <span class="label">LinkedIn</span><span class="arrow" aria-hidden="true">↗</span>
+            </a>
+          </nav>
+        </div>
+
+        <div class="info-col">
+          <h1 class="author-name">Jonas Mirlach</h1>
+          <p class="author-role">
+            M.Sc. Student in Computer Science<br>
+            <span class="affiliation"><svg aria-hidden="true" viewBox="0 0 24 24"><path d="M18.5 10.3c0 4.6-4.6 8.9-6.5 10.9-1.9-2-6.5-6.3-6.5-10.9a6.5 6.5 0 0 1 13 0Z"/><circle cx="12" cy="10.3" r="2.5"/></svg><span>Zurich, Switzerland</span></span>
+          </p>
+
+          <p class="bio">
+            Hi! I'm Jonas, currently a graduate student in Computer Science at ETH Zurich.
+            For the past few years, my studies and much of my work have revolved around AI, and I've enjoyed exploring different corners of the field.
+            Beyond the technical side, I'm very interested in economics, industry, and politics, and how they will need to evolve together so that the technology genuinely benefits everyone.
+            I'm always happy to connect, just reach out!
+          </p>
+          <p class="bio-secondary">
+            Previously, I completed a B.Sc. in Industrial Engineering and a B.Sc. in Computer Science at the University of Augsburg.
+            Throughout my studies, I gained experience in both research and industry.
+            I spent four years at the FIM Research Center and Fraunhofer FIT, and one and a half years with XITASO's research team.
+            Beyond research, I did internships in management consulting at Porsche Consulting and BCG, and most recently in ML infrastructure engineering at Google.
+            I also really enjoy teaching and sharing knowledge, and have been a teaching assistant for several courses at both the University of Augsburg and ETH Zurich.
+          </p>
+        </div>
+      </div>
+    </header>
+
+    <!-- ===================== Research projects ===================== -->
+    <main>
+      <section class="projects-section" id="research" aria-labelledby="research-title">
+        <div class="section-title-wrap">
+          <h2 class="section-title" id="research-title">Research Projects</h2>
+          <p class="section-desc">Publications, preprints, and unpublished student research work.</p>
+        </div>
+
+        <ol class="projects-list">
+
+          <!-- 01 — Reference-Guided Machine Unlearning -->
+          <li>
+            <article class="project-entry">
+              <div class="project-media">
+                <img class="project-thumb" src="assets/project-regun.svg" alt="Illustration of reference-guided machine unlearning" width="280" height="210" loading="lazy">
+              </div>
+              <div class="project-body">
+                <div class="project-header">
+                  <span class="venue">ICLR Workshop on Agents in the Wild (AIWILD)</span>
+                  <time class="project-year" datetime="2026">2026</time>
+                </div>
+                <h3 class="project-title">Reference-Guided Machine Unlearning</h3>
+                <p class="venue-note"><strong>Jonas Mirlach</strong>, Sonia Laguna, Julia E. Vogt</p>
+                <p class="project-summary">
+                  We proposed a machine unlearning method that uses predictions on unseen data to
+                  guide forgetting while preserving accuracy on retained data.
+                </p>
+                <div class="project-links">
+                  <a href="https://arxiv.org/abs/2603.11210" target="_blank" rel="noreferrer"><svg aria-hidden="true" viewBox="0 0 24 24"><path d="M6.2 3.4h7.4l5.2 5.2v11.8H6.2Z"/><path d="M13.4 3.4v5.4h5.4"/><path d="M9.2 13.2h6.4M9.2 16.6h4.2"/></svg><span>Paper</span><span aria-hidden="true">↗</span></a>
+                  <a href="https://github.com/jmirlach/ReGUn" target="_blank" rel="noreferrer"><svg aria-hidden="true" viewBox="0 0 24 24"><path d="m7.2 7.4-4 4.6 4 4.6M16.8 7.4l4 4.6-4 4.6"/><path d="M13 5.4 11 18.6"/></svg><span>Code</span><span aria-hidden="true">↗</span></a>
+                  <a href="https://polybox.ethz.ch/index.php/s/8yx7kA66zwHD8oq" target="_blank" rel="noreferrer"><svg aria-hidden="true" viewBox="0 0 24 24"><rect x="3.6" y="3.6" width="16.8" height="16.8" rx="1.6"/><path d="M3.6 8.8h16.8M12 8.8v11.6"/></svg><span>Poster</span><span aria-hidden="true">↗</span></a>
+                </div>
+              </div>
+            </article>
+          </li>
+
+          <!-- 02 — PyTorch vs. JAX -->
+          <li>
+            <article class="project-entry">
+              <div class="project-media">
+                <img class="project-thumb" src="assets/project-autodiff.svg" alt="Illustration of automatic differentiation routes in PyTorch and JAX" width="280" height="210" loading="lazy">
+              </div>
+              <div class="project-body">
+                <div class="project-header">
+                  <span class="venue student">Unpublished</span>
+                  <time class="project-year" datetime="2026">2026</time>
+                </div>
+                <h3 class="project-title">PyTorch vs. JAX: Automatic Differentiation Performance on Scientific Codes</h3>
+                <p class="venue-note">Baraq Lipshitz, <strong>Jonas Mirlach</strong>, Amin Oudrhiri, Gerald Prendi, Leyla Yaayladere</p>
+                <p class="project-summary">
+                  We compared reverse-mode automatic differentiation in PyTorch and JAX, examining
+                  how computational patterns affect performance on scientific workloads across CPUs
+                  and GPUs.
+                </p>
+                <div class="project-links">
+                  <a href="https://polybox.ethz.ch/index.php/s/XdSRTAdATMggF6b" target="_blank" rel="noreferrer"><svg aria-hidden="true" viewBox="0 0 24 24"><path d="M6.2 3.4h7.4l5.2 5.2v11.8H6.2Z"/><path d="M13.4 3.4v5.4h5.4"/><path d="M9.2 13.2h6.4M9.2 16.6h4.2"/></svg><span>Paper</span><span aria-hidden="true">↗</span></a>
+                  <a href="https://github.com/gprendi/dphpc-fall25-project" target="_blank" rel="noreferrer"><svg aria-hidden="true" viewBox="0 0 24 24"><path d="m7.2 7.4-4 4.6 4 4.6M16.8 7.4l4 4.6-4 4.6"/><path d="M13 5.4 11 18.6"/></svg><span>Code</span><span aria-hidden="true">↗</span></a>
+                </div>
+              </div>
+            </article>
+          </li>
+
+          <!-- 03 — R-LiViT -->
+          <li>
+            <article class="project-entry">
+              <div class="project-media">
+                <img class="project-thumb" src="assets/project-rlivit.svg" alt="Roadside sensors observing a pedestrian and cyclist for the R-LiViT dataset" width="280" height="210" loading="lazy">
+              </div>
+              <div class="project-body">
+                <div class="project-header">
+                  <span class="venue">IEEE/CVF International Conference on Computer Vision (ICCV)</span>
+                  <time class="project-year" datetime="2025">2025</time>
+                </div>
+                <h3 class="project-title">R-LiViT: A LiDAR-Visual-Thermal Dataset Enabling Vulnerable Road User Focused Roadside Perception</h3>
+                <p class="venue-note"><strong>Jonas Mirlach</strong>, Lei Wan, Andreas Wiedholz, Hannan Ejaz Keen, Andreas Eich</p>
+                <p class="project-summary">
+                  We created a roadside dataset combining LiDAR, RGB and thermal recordings, with a
+                  focus on detecting pedestrians and cyclists during day and night.
+                </p>
+                <div class="project-links">
+                  <a href="https://arxiv.org/abs/2503.17122" target="_blank" rel="noreferrer"><svg aria-hidden="true" viewBox="0 0 24 24"><path d="M6.2 3.4h7.4l5.2 5.2v11.8H6.2Z"/><path d="M13.4 3.4v5.4h5.4"/><path d="M9.2 13.2h6.4M9.2 16.6h4.2"/></svg><span>Paper</span><span aria-hidden="true">↗</span></a>
+                  <a href="https://doi.org/10.5281/zenodo.16356714" target="_blank" rel="noreferrer"><svg class="dataset-icon" aria-hidden="true" viewBox="0 0 24 24"><ellipse cx="12" cy="5.5" rx="7.2" ry="2.6"/><path d="M4.8 5.5v6.5c0 1.4 3.2 2.6 7.2 2.6s7.2-1.2 7.2-2.6V5.5M4.8 12v6.5c0 1.4 3.2 2.6 7.2 2.6s7.2-1.2 7.2-2.6V12"/></svg><span>Dataset</span><span aria-hidden="true">↗</span></a>
+                  <a href="https://github.com/XITASO/r-livit" target="_blank" rel="noreferrer"><svg aria-hidden="true" viewBox="0 0 24 24"><path d="m7.2 7.4-4 4.6 4 4.6M16.8 7.4l4 4.6-4 4.6"/><path d="M13 5.4 11 18.6"/></svg><span>Code</span><span aria-hidden="true">↗</span></a>
+                  <a href="https://polybox.ethz.ch/index.php/s/sRa4cQ6MRBsycL8" target="_blank" rel="noreferrer"><svg aria-hidden="true" viewBox="0 0 24 24"><rect x="3.6" y="3.6" width="16.8" height="16.8" rx="1.6"/><path d="M3.6 8.8h16.8M12 8.8v11.6"/></svg><span>Poster</span><span aria-hidden="true">↗</span></a>
+                </div>
+              </div>
+            </article>
+          </li>
+
+          <!-- 04 — Apertus legal headnotes -->
+          <li>
+            <article class="project-entry">
+              <div class="project-media">
+                <img class="project-thumb" src="assets/project-legalnlp.svg" alt="Illustration of a legal ruling being condensed into multilingual headnotes" width="280" height="210" loading="lazy">
+              </div>
+              <div class="project-body">
+                <div class="project-header">
+                  <span class="venue student">Unpublished</span>
+                  <time class="project-year" datetime="2025">2025</time>
+                </div>
+                <h3 class="project-title">Evaluating Apertus Models for Multilingual Legal Headnote Generation</h3>
+                <p class="venue-note">Kaushik Karthikeyan, <strong>Jonas Mirlach</strong>, Max Neuwinger</p>
+                <p class="project-summary">
+                  We evaluated fine-tuning approaches for Apertus models to generate headnotes for
+                  Swiss court decisions, examining summary quality across German, French and
+                  Italian.
+                </p>
+                <div class="project-links">
+                  <a href="https://polybox.ethz.ch/index.php/s/SktTrbDC9rgArZx" target="_blank" rel="noreferrer"><svg aria-hidden="true" viewBox="0 0 24 24"><path d="M6.2 3.4h7.4l5.2 5.2v11.8H6.2Z"/><path d="M13.4 3.4v5.4h5.4"/><path d="M9.2 13.2h6.4M9.2 16.6h4.2"/></svg><span>Paper</span><span aria-hidden="true">↗</span></a>
+                  <a href="https://github.com/kauuu/apertus-finetuning-lsai" target="_blank" rel="noreferrer"><svg aria-hidden="true" viewBox="0 0 24 24"><path d="m7.2 7.4-4 4.6 4 4.6M16.8 7.4l4 4.6-4 4.6"/><path d="M13 5.4 11 18.6"/></svg><span>Code</span><span aria-hidden="true">↗</span></a>
+                </div>
+              </div>
+            </article>
+          </li>
+
+          <!-- 05 — Dynamic scene Gaussian splatting -->
+          <li>
+            <article class="project-entry">
+              <div class="project-media">
+                <img class="project-thumb" src="assets/project-gaussiansplatting.svg" alt="Illustration of dynamic human reconstruction with Gaussian splatting" width="280" height="210" loading="lazy">
+              </div>
+              <div class="project-body">
+                <div class="project-header">
+                  <span class="venue student">Unpublished</span>
+                  <time class="project-year" datetime="2025">2025</time>
+                </div>
+                <h3 class="project-title">Feed-forward Dynamic Scene Reconstruction with Humans Using Gaussian Splatting</h3>
+                <p class="venue-note">İrem Demir, Emircan Gündoğdu, <strong>Jonas Mirlach</strong></p>
+                <p class="project-summary">
+                  We developed a Gaussian splatting approach to reconstruct people and their
+                  surroundings from monocular video, with a human representation that supports
+                  reposing.
+                </p>
+                <div class="project-links">
+                  <a href="https://polybox.ethz.ch/index.php/s/6dJnxyGZMdAx9mT" target="_blank" rel="noreferrer"><svg aria-hidden="true" viewBox="0 0 24 24"><path d="M6.2 3.4h7.4l5.2 5.2v11.8H6.2Z"/><path d="M13.4 3.4v5.4h5.4"/><path d="M9.2 13.2h6.4M9.2 16.6h4.2"/></svg><span>Paper</span><span aria-hidden="true">↗</span></a>
+                  <a href="https://github.com/iremddemir/dynamic_human_splatting" target="_blank" rel="noreferrer"><svg aria-hidden="true" viewBox="0 0 24 24"><path d="m7.2 7.4-4 4.6 4 4.6M16.8 7.4l4 4.6-4 4.6"/><path d="M13 5.4 11 18.6"/></svg><span>Code</span><span aria-hidden="true">↗</span></a>
+                  <a href="https://polybox.ethz.ch/index.php/s/LaSfq5wTk6bTMwo" target="_blank" rel="noreferrer"><svg aria-hidden="true" viewBox="0 0 24 24"><rect x="3.6" y="3.6" width="16.8" height="16.8" rx="1.6"/><path d="M3.6 8.8h16.8M12 8.8v11.6"/></svg><span>Poster</span><span aria-hidden="true">↗</span></a>
+                </div>
+              </div>
+            </article>
+          </li>
+
+          <!-- 06 — Depth distillation -->
+          <li>
+            <article class="project-entry">
+              <div class="project-media">
+                <img class="project-thumb" src="assets/project-depth.svg" alt="Illustration of uncertainty-guided depth distillation" width="280" height="210" loading="lazy">
+              </div>
+              <div class="project-body">
+                <div class="project-header">
+                  <span class="venue student">Unpublished</span>
+                  <time class="project-year" datetime="2025">2025</time>
+                </div>
+                <h3 class="project-title">Uncertainty Guided Knowledge Distillation for Monocular Depth Estimation</h3>
+                <p class="venue-note">Tengerleg Enkhtuvshin, <strong>Jonas Mirlach</strong>, Iaroslava Novoselova, Piotr Wilczyński</p>
+                <p class="project-summary">
+                  We tested whether filtering uncertain teacher predictions helps smaller models
+                  learn to estimate depth from a single image through knowledge distillation.
+                </p>
+                <div class="project-links">
+                  <a href="https://polybox.ethz.ch/index.php/s/sMoTpF6pbe4TkYj" target="_blank" rel="noreferrer"><svg aria-hidden="true" viewBox="0 0 24 24"><path d="M6.2 3.4h7.4l5.2 5.2v11.8H6.2Z"/><path d="M13.4 3.4v5.4h5.4"/><path d="M9.2 13.2h6.4M9.2 16.6h4.2"/></svg><span>Paper</span><span aria-hidden="true">↗</span></a>
+                  <a href="https://github.com/wi1lku/cilabee" target="_blank" rel="noreferrer"><svg aria-hidden="true" viewBox="0 0 24 24"><path d="m7.2 7.4-4 4.6 4 4.6M16.8 7.4l4 4.6-4 4.6"/><path d="M13 5.4 11 18.6"/></svg><span>Code</span><span aria-hidden="true">↗</span></a>
+                </div>
+              </div>
+            </article>
+          </li>
+
+          <!-- 07 — XAI for building retrofits -->
+          <li>
+            <article class="project-entry">
+              <div class="project-media">
+                <img class="project-thumb" src="assets/project-xai.svg" alt="Illustration of explainable building retrofit decisions" width="280" height="210" loading="lazy">
+              </div>
+              <div class="project-body">
+                <div class="project-header">
+                  <span class="venue">Energy and Buildings</span>
+                  <time class="project-year" datetime="2024">2024</time>
+                </div>
+                <h3 class="project-title">Leveraging Explainable AI for Informed Building Retrofit Decisions: Insights from a Survey</h3>
+                <p class="venue-note">Daniel Leuthe, <strong>Jonas Mirlach</strong>, Simon Wenninger, Christian Wiethe</p>
+                <p class="project-summary">
+                  We examined how people understand explanations of building energy predictions,
+                  comparing machine learning models and explanation methods through a survey of 137
+                  participants.
+                </p>
+                <div class="project-links">
+                  <a href="https://www.sciencedirect.com/science/article/pii/S0378778824005425" target="_blank" rel="noreferrer"><svg aria-hidden="true" viewBox="0 0 24 24"><path d="M6.2 3.4h7.4l5.2 5.2v11.8H6.2Z"/><path d="M13.4 3.4v5.4h5.4"/><path d="M9.2 13.2h6.4M9.2 16.6h4.2"/></svg><span>Paper</span><span aria-hidden="true">↗</span></a>
+                  <a href="https://github.com/jmirlach/xai-building-energy-prediction" target="_blank" rel="noreferrer"><svg aria-hidden="true" viewBox="0 0 24 24"><path d="m7.2 7.4-4 4.6 4 4.6M16.8 7.4l4 4.6-4 4.6"/><path d="M13 5.4 11 18.6"/></svg><span>Code</span><span aria-hidden="true">↗</span></a>
+                  <a href="https://polybox.ethz.ch/index.php/s/PQzE5GkDcGDYjFo" target="_blank" rel="noreferrer"><svg aria-hidden="true" viewBox="0 0 24 24"><rect x="4.6" y="3.4" width="14.8" height="17.2" rx="1.4"/><path d="M8.2 3.4v17.2"/><path d="M11 10.2h5.4M11 13.8h3.6"/></svg><span>Thesis</span><span aria-hidden="true">↗</span></a>
+                </div>
+              </div>
+            </article>
+          </li>
+
+          <!-- 08 — Adversarial robustness & forgetting -->
+          <li>
+            <article class="project-entry">
+              <div class="project-media">
+                <img class="project-thumb" src="assets/project-continual.svg" alt="Illustration of adversarial robustness and catastrophic forgetting" width="280" height="210" loading="lazy">
+              </div>
+              <div class="project-body">
+                <div class="project-header">
+                  <span class="venue student">Unpublished</span>
+                  <time class="project-year" datetime="2024">2024</time>
+                </div>
+                <h3 class="project-title">Adversarial Robustness as a Predictor of Catastrophic Forgetting</h3>
+                <p class="venue-note">Arthur Kirchgessner, Stefan Künzli, <strong>Jonas Mirlach</strong>, Alexandre Zwahlen</p>
+                <p class="project-summary">
+                  We studied whether an image’s robustness to adversarial perturbations predicts how
+                  likely a model is to forget it when learning new classes.
+                </p>
+                <div class="project-links">
+                  <a href="https://polybox.ethz.ch/index.php/s/t1lwoAdYqqcEr0d" target="_blank" rel="noreferrer"><svg aria-hidden="true" viewBox="0 0 24 24"><path d="M6.2 3.4h7.4l5.2 5.2v11.8H6.2Z"/><path d="M13.4 3.4v5.4h5.4"/><path d="M9.2 13.2h6.4M9.2 16.6h4.2"/></svg><span>Paper</span><span aria-hidden="true">↗</span></a>
+                  <a href="https://github.com/jmirlach/adversarial-robustness-as-a-predictor-of-catastrophic-forgetting" target="_blank" rel="noreferrer"><svg aria-hidden="true" viewBox="0 0 24 24"><path d="m7.2 7.4-4 4.6 4 4.6M16.8 7.4l4 4.6-4 4.6"/><path d="M13 5.4 11 18.6"/></svg><span>Code</span><span aria-hidden="true">↗</span></a>
+                </div>
+              </div>
+            </article>
+          </li>
+
+          <!-- 09 — PTSD from speech -->
+          <li>
+            <article class="project-entry">
+              <div class="project-media">
+                <img class="project-thumb" src="assets/project-ptsd.svg" alt="Illustration of personalised PTSD prediction from speech" width="280" height="210" loading="lazy">
+              </div>
+              <div class="project-body">
+                <div class="project-header">
+                  <span class="venue student">Unpublished</span>
+                  <time class="project-year" datetime="2023">2023</time>
+                </div>
+                <h3 class="project-title">Towards Personalised Prediction of PTSD from Speech</h3>
+                <p class="venue-note"><strong>Jonas Mirlach</strong></p>
+                <p class="project-summary">
+                  We explored predicting PTSD from speech, comparing acoustic features and machine
+                  learning models and testing personalisation through groups of similar speakers.
+                </p>
+                <div class="project-links">
+                  <a href="https://polybox.ethz.ch/index.php/s/6xdBVEgl7ONeKrx" target="_blank" rel="noreferrer"><svg aria-hidden="true" viewBox="0 0 24 24"><path d="M6.2 3.4h7.4l5.2 5.2v11.8H6.2Z"/><path d="M13.4 3.4v5.4h5.4"/><path d="M9.2 13.2h6.4M9.2 16.6h4.2"/></svg><span>Paper</span><span aria-hidden="true">↗</span></a>
+                  <a href="https://github.com/jmirlach/predicting-ptsd-from-speech" target="_blank" rel="noreferrer"><svg aria-hidden="true" viewBox="0 0 24 24"><path d="m7.2 7.4-4 4.6 4 4.6M16.8 7.4l4 4.6-4 4.6"/><path d="M13 5.4 11 18.6"/></svg><span>Code</span><span aria-hidden="true">↗</span></a>
+                </div>
+              </div>
+            </article>
+          </li>
+
+          <!-- 10 — Smart factory platform -->
+          <li>
+            <article class="project-entry">
+              <div class="project-media">
+                <img class="project-thumb" src="assets/project-smartfactory.svg" alt="Illustration of a smart-factory data integration platform" width="280" height="210" loading="lazy">
+              </div>
+              <div class="project-body">
+                <div class="project-header">
+                  <span class="venue">Conference on Production Systems and Logistics (CPSL)</span>
+                  <time class="project-year" datetime="2021">2021</time>
+                </div>
+                <h3 class="project-title">Enabling the Smart Factory: A Digital Platform Concept for Standardized Data Integration</h3>
+                <p class="venue-note">Julia Donnelly, Andreas John, <strong>Jonas Mirlach</strong>, Kilian Osberghaus, Silvia Rother, Christian Schmidt, Hannes Voucko-Glockner, Simon Wenninger</p>
+                <p class="project-summary">
+                  We designed a platform concept for providing manufacturers with standardised data
+                  integration modules, drawing on literature and interviews with industry experts.
+                </p>
+                <div class="project-links">
+                  <a href="https://repo.uni-hannover.de/items/59c6c9cf-78d2-4a71-8be2-08e2835aa0ab" target="_blank" rel="noreferrer"><svg aria-hidden="true" viewBox="0 0 24 24"><path d="M6.2 3.4h7.4l5.2 5.2v11.8H6.2Z"/><path d="M13.4 3.4v5.4h5.4"/><path d="M9.2 13.2h6.4M9.2 16.6h4.2"/></svg><span>Paper</span><span aria-hidden="true">↗</span></a>
+                </div>
+              </div>
+            </article>
+          </li>
+
+        </ol>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p class="footer-text">© 2026 Jonas Mirlach · Website created with AI assistance</p>
+      <a class="footer-link" href="#top">Back to top <span aria-hidden="true">↑</span></a>
+    </footer>
+
+  </div>
+</body>
+</html>

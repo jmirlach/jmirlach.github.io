@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="280" height="210" viewBox="0 0 280 210" role="img" aria-labelledby="title desc">
+  <title id="title">Reference-calibrated forgetting</title>
+  <desc id="desc">Two separate cards contain samples of the same circular class. The upper reference guides a learning instrument while a targeted lower sample enters it. Two response curves suggest reference guidance without reporting measured results.</desc>
+  <rect width="280" height="210" fill="#d9cfc2"/>
+  <g stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M28 179H251" stroke="#762a20"/>
+    <path d="M97 81H237V175H97Z" fill="#762a20"/>
+    <rect x="109" y="94" width="115" height="63" rx="2" fill="#f2efe7"/>
+    <path d="M121 144C138 144 140 109 161 109S183 144 211 144" stroke="#762a20" fill="none"/>
+    <path d="M121 144C142 144 145 115 164 115S187 144 211 144" stroke="#a13e2d" fill="none"/>
+    <circle cx="222" cy="166" r="4" fill="#f2efe7"/>
+    <path d="M106 175V179M228 175V179" stroke="#762a20"/>
+    <path d="M103 28H149V68H103Z" fill="#f2efe7" stroke="#762a20"/>
+    <circle cx="126" cy="48" r="10" fill="#762a20"/>
+    <path d="M126 69V81" stroke="#a13e2d"/>
+    <path d="M121 76L126 81L131 76" fill="none" stroke="#a13e2d"/>
+    <g transform="rotate(-8 51 128)">
+      <path d="M29 99H73V157H29Z" fill="#f2efe7" stroke="#a13e2d"/>
+      <circle cx="51" cy="127" r="11" fill="#a13e2d"/>
+    </g>
+    <path d="M75 128H96M90 122L96 128L90 134" fill="none" stroke="#a13e2d"/>
+    
+  </g>
+</svg>

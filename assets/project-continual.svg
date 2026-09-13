@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="280" height="210" viewBox="0 0 280 210" role="img" aria-labelledby="title desc">
+  <title id="title">Perturbed inputs and older memories</title>
+  <desc id="desc">A sequence of task cards enters a memory cabinet. A magnified patch exposes small perturbations on the current card, while a curved return route suggests examining earlier memories rather than guaranteed robustness.</desc>
+  <rect width="280" height="210" fill="#cbd0c4"/>
+  <g stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M28 179H251" stroke="#405c42"/>
+    <g transform="rotate(-10 55 107)">
+      <rect x="31" y="73" width="44" height="67" fill="#f2efe7" stroke="#405c42"/>
+      <circle cx="53" cy="106" r="12" fill="#405c42" opacity="0.2"/>
+    </g>
+    <g transform="rotate(-4 91 113)">
+      <rect x="67" y="80" width="44" height="67" fill="#f2efe7" stroke="#405c42"/>
+      <path d="M76 126L89 100L102 126Z" fill="#405c42" opacity="0.45"/>
+    </g>
+    <rect x="103" y="87" width="44" height="67" fill="#f2efe7" stroke="#405c42"/>
+    <rect x="113" y="107" width="24" height="25" fill="#405c42"/>
+    <path d="M111 106H118V113H111ZM130 125H137V132H130Z" fill="#a13e2d"/>
+    <path d="M149 128H171M165 122L171 128L165 134" fill="none" stroke="#a13e2d"/>
+    <rect x="177" y="85" width="68" height="90" rx="2" fill="#405c42"/>
+    <rect x="185" y="94" width="52" height="31" fill="#f2efe7"/>
+    <rect x="185" y="136" width="52" height="31" fill="#f2efe7" opacity="0.45"/>
+    <path d="M200 107H222V112H200ZM200 149H222V154H200Z" fill="none" stroke="#405c42"/>
+    <circle cx="204" cy="49" r="22" fill="#f2efe7" stroke="#a13e2d"/>
+    <rect x="193" y="38" width="22" height="23" fill="#405c42"/>
+    <path d="M191 36H199V44H191ZM210 56H218V64H210Z" fill="#a13e2d"/>
+    <path d="M186 63L142 106" stroke="#a13e2d" stroke-width="1.5"/>
+    <path d="M176 176C138 194 96 185 86 161M82 168L86 161L93 164" fill="none" stroke="#405c42" stroke-width="1.5"/>
+    
+  </g>
+</svg>

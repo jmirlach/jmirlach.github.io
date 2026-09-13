@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="280" height="210" viewBox="0 0 280 210" role="img" aria-labelledby="title desc">
+  <title id="title">Reusable connections for the factory</title>
+  <desc id="desc">A machining station, robot and conveyor share a service hub. Three identical plug-shaped modules express reusable integration services across different industrial machines.</desc>
+  <rect width="280" height="210" fill="#cfcbc3"/>
+  <g stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M27 181H253" stroke="#535a5d"/>
+    <rect x="37" y="31" width="207" height="62" rx="3" fill="#535a5d"/>
+    <rect x="46" y="40" width="189" height="43" fill="#f2efe7"/>
+    <g fill="#a13e2d">
+      <path d="M65 55H69V48H74V55H79V48H84V55H88V68Q88 72 80 72V77H73V72Q65 72 65 68Z"/>
+      <path d="M130 55H134V48H139V55H144V48H149V55H153V68Q153 72 145 72V77H138V72Q130 72 130 68Z"/>
+      <path d="M195 55H199V48H204V55H209V48H214V55H218V68Q218 72 210 72V77H203V72Q195 72 195 68Z"/>
+    </g>
+    <path d="M141 93V111M61 111H224M61 111V130M141 111V131M224 111V143" fill="none" stroke="#a13e2d"/>
+    <rect x="30" y="132" width="59" height="45" rx="2" fill="#535a5d"/>
+    <rect x="37" y="139" width="34" height="30" fill="#f2efe7"/>
+    <path d="M50 139H59V151L54.5 157L50 151Z" fill="#535a5d"/>
+    <rect x="43" y="162" width="22" height="5" fill="#535a5d"/>
+    <rect x="76" y="140" width="6" height="12" fill="#a13e2d"/>
+    <path d="M116 177H160V181H116Z" fill="#535a5d"/>
+    <path d="M130 178V164L111 149L131 124L155 137L151 144L134 135L122 147L138 160V178Z" fill="#535a5d"/>
+    <circle cx="116" cy="148" r="5" fill="#f2efe7" stroke="#535a5d"/>
+    <circle cx="133" cy="130" r="5" fill="#a13e2d"/>
+    <circle cx="134" cy="162" r="5" fill="#f2efe7" stroke="#535a5d"/>
+    <path d="M153 140L160 141L166 149M153 140L151 149" fill="none" stroke="#535a5d"/>
+    <rect x="180" y="160" width="71" height="13" rx="6" fill="#535a5d"/>
+    <path d="M186 173V181M244 173V181" stroke="#535a5d"/>
+    <rect x="191" y="142" width="17" height="17" fill="#f2efe7" stroke="#535a5d"/>
+    <rect x="219" y="140" width="22" height="19" fill="#a13e2d"/>
+    
+  </g>
+</svg>

@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="280" height="210" viewBox="0 0 280 210" role="img" aria-labelledby="title desc">
+  <title id="title">Speech and an individual model</title>
+  <desc id="desc">A simplified speaker faces a microphone. An acoustic waveform leads to a model card with a person silhouette and adjustable feature weights, indicating personalised speech research without a diagnosis.</desc>
+  <rect width="280" height="210" fill="#d3c6c0"/>
+  <g stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M28 181H252" stroke="#743f3c"/>
+    <path d="M29 177V152Q29 130 51 126H69Q88 130 89 150V177Z" fill="#743f3c"/>
+    <path d="M51 132V110H70V132" fill="#f2efe7" stroke="#743f3c"/>
+    <path d="M38 83C38 65 49 58 62 58C79 58 85 72 83 88L91 99L83 103V116H58C44 110 38 98 38 83Z" fill="#f2efe7" stroke="#743f3c"/>
+    <path d="M38 88C28 65 43 49 60 49C75 49 84 59 86 72H64L53 92Z" fill="#743f3c"/>
+    <rect x="110" y="104" width="16" height="33" rx="8" fill="#a13e2d"/>
+    <path d="M105 120V127Q105 143 118 143Q131 143 131 127V120M118 143V177M107 177H129" stroke="#743f3c" fill="none"/>
+    <path d="M97 72H106L112 62L117 83L123 52L130 92L136 69L142 74H154" stroke="#a13e2d" fill="none"/>
+    <path d="M154 74H170M164 68L170 74L164 80" stroke="#a13e2d" fill="none"/>
+    <rect x="181" y="39" width="69" height="129" rx="3" fill="#f2efe7" stroke="#743f3c"/>
+    <circle cx="215" cy="62" r="9" fill="#a13e2d"/>
+    <path d="M200 86Q201 73 215 73Q229 73 230 86Z" fill="#a13e2d"/>
+    <path d="M194 111H237M194 139H237" stroke="#743f3c"/>
+    <circle cx="206" cy="111" r="5" fill="#a13e2d"/>
+    <circle cx="226" cy="139" r="5" fill="#a13e2d"/>
+    
+  </g>
+</svg>

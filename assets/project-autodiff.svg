@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="280" height="210" viewBox="0 0 280 210" role="img" aria-labelledby="title desc">
+  <title id="title">A shared computation, two directions</title>
+  <desc id="desc">A single computation graph carries a forward route and a reverse route above two matching measurement instruments. The paired instruments represent a controlled comparison of PyTorch and JAX without implying a ranking.</desc>
+  <rect width="280" height="210" fill="#d4c8d1"/>
+  <g stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <rect x="28" y="30" width="224" height="88" rx="3" fill="#f2efe7" stroke="#633c60"/>
+    <path d="M43 48H237M231 43L237 48L231 53" stroke="#633c60" fill="none"/>
+    <path d="M237 103H43M49 98L43 103L49 108" stroke="#8a3156" fill="none"/>
+    <path d="M58 76H93L126 63H153L185 76H222M93 76L126 90H153L185 76" stroke="#633c60" fill="none"/>
+    <circle cx="57" cy="76" r="7" fill="#633c60"/>
+    <rect x="119" y="56" width="14" height="14" fill="#d4c8d1" stroke="#633c60"/>
+    <rect x="146" y="83" width="14" height="14" fill="#d4c8d1" stroke="#633c60"/>
+    <circle cx="222" cy="76" r="7" fill="#8a3156"/>
+    <path d="M77 118V136M203 118V136" stroke="#633c60"/>
+    <rect x="29" y="136" width="97" height="43" rx="3" fill="#633c60"/>
+    <rect x="154" y="136" width="97" height="43" rx="3" fill="#633c60"/>
+    <circle cx="59" cy="157" r="13" fill="#f2efe7"/>
+    <circle cx="184" cy="157" r="13" fill="#f2efe7"/>
+    <path d="M59 157L65 151M184 157L190 151" stroke="#8a3156"/>
+    <rect x="85" y="148" width="26" height="18" fill="#d4c8d1"/>
+    <rect x="210" y="148" width="26" height="18" fill="#d4c8d1"/>
+    
+  </g>
+</svg>

@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="280" height="210" viewBox="0 0 280 210" role="img" aria-labelledby="title desc">
+  <title id="title">From a long ruling to short headnotes</title>
+  <desc id="desc">A tall folded court document contains a large selected passage. A curved link leads to a short stack of headnotes beside a globe, expressing condensation and multilingual generation without using text.</desc>
+  <rect width="280" height="210" fill="#d4d1bd"/>
+  <g stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M31 46H115V177H31Z" fill="#d4d1bd" stroke="#4f4e38"/>
+    <path d="M38 38H105L126 59V170H38Z" fill="#f2efe7" stroke="#4f4e38"/>
+    <path d="M105 38V59H126" fill="#d4d1bd" stroke="#4f4e38"/>
+    <rect x="55" y="77" width="53" height="72" fill="#a13e2d" opacity="0.2"/>
+    <rect x="55" y="91" width="53" height="38" fill="#a13e2d"/>
+    <path d="M115 110C147 110 144 91 172 91M166 85L172 91L166 97" fill="none" stroke="#a13e2d"/>
+    <g transform="rotate(8 207 147)"><rect x="174" y="119" width="64" height="57" fill="#d4d1bd" stroke="#4f4e38"/></g>
+    <rect x="176" y="114" width="64" height="57" fill="#f2efe7" stroke="#4f4e38"/>
+    <rect x="181" y="108" width="64" height="57" fill="#f2efe7" stroke="#4f4e38"/>
+    <rect x="194" y="122" width="38" height="25" fill="#a13e2d"/>
+    <circle cx="214" cy="58" r="24" fill="none" stroke="#4f4e38"/>
+    <ellipse cx="214" cy="58" rx="11" ry="24" fill="none" stroke="#4f4e38"/>
+    <path d="M190 58H238" stroke="#4f4e38"/>
+    
+  </g>
+</svg>
